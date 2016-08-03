@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BatteryApp</string>
+    <string name="titleMainActivity">Battery</string>
+    <string name="chargeLevelLabel">Battery Level:</string>
+    <string name="chargingTypeLabel">Charging Type:</string>
+    <string name="usbValue">USB</string>
+    <string name="acValue">Wall charger</string>
+</resources>

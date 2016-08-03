@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    >
+    <TextView
+        android:id="@+id/titleLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:background="@color/titleCharging"
+        android:textAlignment="center"
+        android:text="@string/titleMainActivity"
+        />
+
+    <TextView
+        android:id="@+id/chargeLevelLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:background="@color/labelCharging"
+        android:textAlignment="center"
+        android:text="@string/chargeLevelLabel" />
+
+    <TextView
+        android:id="@+id/chargeLevelValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:background="@color/valueCharging"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/chargingTypeLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:background="@color/labelCharging"
+        android:textAlignment="center"
+        android:text="@string/chargingTypeLabel" />
+
+    <TextView
+        android:id="@+id/chargingTypeValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:background="@color/valueCharging"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+</LinearLayout>
